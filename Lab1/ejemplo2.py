@@ -130,12 +130,3 @@ def jugarTotito():
 jugarTotito()
 
 
-# 7. Verificar si hay un ganador 
-# -- crear una funcion que verifique si el jugador actual ganó 
-# Un jugador gana cuando: 
-# forma una línea horizontal, vertical o diagonal. 
-def verificarGanador(tablero, jugador):
-    """Verifica si el jugador actual ganó"""
-    for fila in range(3):
-        pass
-    

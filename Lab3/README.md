@@ -1,8 +1,5 @@
 # Guía de Comandos de Git
 
-Esta guía cubre los comandos esenciales de Git para gestionar un repositorio, trabajar con ramas, resolver conflictos y más. Cada comando incluye una breve descripción de su propósito y uso.
----
-
 ## Inicialización y Configuración de un Repositorio
 
 ### Crear un nuevo repositorio local
