@@ -57,9 +57,15 @@ def LeerArchivoMD(rutaArchivo):
     for banco in bancos:
         nombreBanco = banco.getAttribute('nombre') #Obtiene el valor de un atributo del elemento actual.
         direccionBanco = banco.getAttribute('direccion') 
-        # getElementsByTagName -> Retorna una lista de elementos hijos con la etiqueta especificada.
+        # getElementsByTagName -> Este método siempre retorna una NodeList (lista de nodos), incluso si hay solo un elemento.
+        #   - Por eso necesitas [0] para acceder al primer elemento de la lista.
+
         # getAttribute() NO SE USA para elementos anidados
         #   - solo funciona con atributos dentro de la etiqueta, no con elementos hijos.
+
+        # el texto no es una propiedad directa del elemento, sino un nodo hijo de tipo texto.
+            #.firstChild -> Obtiene el primer nodo hijo del elemento (Ej: el nodo de texto con "26").
+            #.data -> Extrae el contenido del nodo de texto (Ej: la cadena "26").
         ant = int(banco.getElementsByTagName('Antiguedad')[0].firstChild.data) 
         
         sucursales = int(banco.getElementsByTagName('sucursales')[0].firstChild.data)
@@ -84,7 +90,7 @@ def LeerArchivoMD(rutaArchivo):
 if __name__ == '__main__':
     opc = 0
     rutaArchivo = input("Ingrese la ruta del archivo: ")
-    while opc != 6:
+    while opc != 3:
         opc = Menu()
 
         if opc == 1:

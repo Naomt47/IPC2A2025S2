@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?> <!-- Inicio del archivo XML -->
 <listado> <!-- Inicio de la raíz del archivo XML -->
     <Banco nombre="Banrural" direccion="Av Reforma, 9-30, Zona 9">  <!-- Elemento Banco con dos atributos: nombre y direccion -->
-        <Antiguedad >26</Antiguedad> <!-- Elemento antiguedad -->
+        <Antiguedad>26</Antiguedad> <!-- Elemento antiguedad -->
         <sucursales>350</sucursales><!-- Elemento sucursales -->
         <Clientes> <!-- Elemento Clientes que contiene dentro múltiples elementos de Cliente -->
             <Cliente> <!-- Elemento Cliente -->
@@ -22,9 +22,6 @@
                 <Saldo>35000.86</Saldo> 
                 <edad>46</edad> 
             </Cliente> 
-            <persona>
-                
-            </persona>
         </Clientes> <!-- Fin del elemento Clientes -->
     </Banco> <!-- Fin del elemento Banco -->
     <Banco nombre="Banco Industrial" direccion="Vía 5 5-35 Zona 4, Ciudad de Guatemala, Guatemala">  <!-- Elemento Banco con dos atributos: nombre y direccion -->

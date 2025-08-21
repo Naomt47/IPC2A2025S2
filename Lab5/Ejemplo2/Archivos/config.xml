@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<totito>
+    <configuracion>
+        <filas>3</filas>
+        <columnas>3</columnas>
+        <jugador_inicial>X</jugador_inicial>
+    </configuracion>
+    <movimientos>
+        <movimiento fila="0" columna="0" jugador="X"/>
+        <movimiento fila="1" columna="1" jugador="O"/>
+        <movimiento fila="0" columna="2" jugador="X"/>
+    </movimientos>
+</totito>
