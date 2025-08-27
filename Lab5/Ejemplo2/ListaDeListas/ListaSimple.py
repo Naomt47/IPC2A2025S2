@@ -74,5 +74,10 @@ class ListaSimple():
         return None
 
 
-
-
+    def graficarCelda(self):
+        temp = self.primero
+        cadena = ""
+        while temp != None:
+            cadena += f'<TD WIDTH="50" HEIGHT="50" >{temp.dato.jugador}</TD>\n'
+            temp = temp.siguiente
+        return cadena

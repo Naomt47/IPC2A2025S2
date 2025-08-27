@@ -39,7 +39,9 @@ def main():
             
             # Preguntar si desea guardar el resultado
             guardar = input("¿Deseas guardar el resultado? (s/n): ").lower()
+            
             if guardar == "s":
+
                 print("1. Generar Resultado con minidom")
                 print("2. Generar Resultado con ElementTree")
                 metodo = input("Selecciona el método: ")

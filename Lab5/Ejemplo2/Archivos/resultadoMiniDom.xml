@@ -1,0 +1,24 @@
+<?xml version="1.0" ?>
+<totito>
+  <resultado>
+    <ganador>X</ganador>
+    <perdedor>O</perdedor>
+  </resultado>
+  <tablero filas="3" columnas="3">
+    <fila id="0">
+      <columna id="0">X</columna>
+      <columna id="1">X</columna>
+      <columna id="2">X</columna>
+    </fila>
+    <fila id="1">
+      <columna id="0">O</columna>
+      <columna id="1">O</columna>
+      <columna id="2"> </columna>
+    </fila>
+    <fila id="2">
+      <columna id="0"> </columna>
+      <columna id="1"> </columna>
+      <columna id="2"> </columna>
+    </fila>
+  </tablero>
+</totito>

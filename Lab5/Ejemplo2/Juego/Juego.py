@@ -34,6 +34,7 @@ class JuegoTotito:
                 if self.tablero.realizarMovimiento(columna, fila, jugador):  # Nota: x,y vs fila,columna
                     self.movimientos += 1
                     self.jugadorActual = "O" if jugador == "X" else "X"
+                
 
             return True
         except Exception as e:
@@ -184,7 +185,13 @@ class JuegoTotito:
             with open(archivo, "w") as f:
                 f.write(doc.toprettyxml(indent="  "))
             
+            
             print(f"Resultado guardado en {archivo}")
+
+            #GRAFICAMOS
+
+            self.tablero.graficarTablero()
+
             return True
         except Exception as e:
             print(f"Error al generar XML con minidom: {e}")
@@ -241,6 +248,9 @@ class JuegoTotito:
             tree.write(archivo, encoding="utf-8", xml_declaration=True)
             
             print(f"Resultado guardado en {archivo}")
+            #GRAFICAMOS
+            
+            self.tablero.graficarTablero()
             return True
         except Exception as e:
             print(f"Error al generar XML con ElementTree: {e}")

@@ -8,33 +8,10 @@ class ListaDoble:
         self.ultimo = None
 
 
-
-
-
-
-
-
-
     def estaVacio(self):
         return self.primero == self.ultimo == None
     
     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
 
     def agregarUltimo(self, id, nombre, direccion, antiguedad, sucursales):
         #crear el nodo
@@ -50,43 +27,11 @@ class ListaDoble:
             self.ultimo = nuevo
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-    
-
     def recorrer(self):
         temp = self.primero
         while temp!=None:
             print(temp.id, temp.nombre, temp.direccion, temp.antiguedad, temp.sucursales)
             temp = temp.siguiente
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
     def agregarPrimero(self, id, nombre, direccion, antiguedad, sucursales):
@@ -97,9 +42,6 @@ class ListaDoble:
             nuevo.siguiente = self.primero
             self.primero.anterior = nuevo
             self.primero = nuevo
-
-
-
 
 
     def eliminar(self, id):

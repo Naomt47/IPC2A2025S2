@@ -14,9 +14,6 @@ class NodoEncabezado:
         self.fila = ListaSimple()
         
 
-
-
-
 class ListaDoble:
     def __init__(self):
         self.primero = None
@@ -84,3 +81,33 @@ class ListaDoble:
         return None
     
 
+    def graficar(self):
+        temp = self.primero
+        contenido = """
+graph G {
+  node [shape=plaintext]; // Usamos nodos planos (tablas)
+  
+  tablero [label=<
+    <TABLE BORDER="1" CELLBORDER="1" CELLSPACING="0" >
+"""
+        while temp != None:
+            contenido += f'<TR>'
+            contenido += f'<TD WIDTH="50" HEIGHT="50" >{temp.dato.jugador}</TD>'
+            contenido += temp.fila.graficarCelda()
+            contenido += '</TR>'
+            temp = temp.siguiente
+
+        contenido += """
+    </TABLE>
+  >];
+}
+"""
+        file = open("Archivos/Grafica.dot", "w")
+        file.write(contenido)
+        file.close()
+        os.system("dot -Tpng Archivos/Grafica.dot -o Archivos/Grafica.png")
+        os.system("dot -Tpdf Archivos/Grafica.dot -o Archivos/Grafica.pdf")
+        print("Grafica Creada Exitosamente")
+
+
+    

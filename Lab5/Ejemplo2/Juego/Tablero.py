@@ -128,3 +128,6 @@ class TableroTotito:
             print(" ", x, end=" ")
         print()
         self.matriz.imprimirMatriz()
+
+    def graficarTablero(self):
+        self.matriz.graficar()
