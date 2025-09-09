@@ -1,0 +1,57 @@
+:root {
+    --color-fondo: #f4f4f4;
+    --color-texto: #333;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: var(--color-fondo);
+    color: var(--color-texto);
+    margin: 20px;
+}
+
+#titulo {
+    color: blue;
+    text-align: center;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;  /* Une bordes */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+ul {
+    list-style-type: square;  /* Viñetas cuadradas */
+}
+
+form {
+    margin-top: 20px;
+}
+
+input[type="email"] {
+    width: 200px;
+    padding: 5px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;  /* Mano al hover */
+}
+
+button:hover {
+    background-color: #45a049;  /* Pseudo-clase para hover */
+}

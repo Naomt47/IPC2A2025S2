@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Currículum</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1 id="titulo">Juan Pérez - Desarrollador Web</h1>
+        <img src="foto.jpeg" alt="Foto de perfil" width="150">
+    </header>
+    
+    <section>
+        <h2>Experiencia</h2>
+        <table>
+            <tr>
+                <th>Año</th>
+                <th>Trabajo</th>
+            </tr>
+            <tr>
+                <td>2023</td>
+                <td>Intern en Python</td>
+            </tr>
+            <tr>
+                <td>2024</td>
+                <td>Web Developer</td>
+            </tr>
+        </table>
+    </section>
+    
+    <section>
+        <h2>Habilidades</h2>
+        <ul>
+            <li>HTML5 y CSS</li>
+            <li>Python básico</li>
+            <li>Responsive Design</li>
+        </ul>
+    </section>
+    
+    <form action="procesar.html" method="POST">
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required placeholder="tu@email.com">
+        <br>
+        <label>Intereses:</label>
+        <input type="checkbox" name="interes" value="web"> Web
+        <input type="checkbox" name="interes" value="python"> Python
+        <br>
+        <button type="submit">Enviar</button>
+    </form>
+</body>
+</html>
