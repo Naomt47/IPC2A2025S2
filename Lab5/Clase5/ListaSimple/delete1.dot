@@ -1,0 +1,9 @@
+digraph G{ 
+rankdir=LR
+node[ shape = record, style="filled", color="black", fillcolor="yellow"];
+Nodo0[label = "3 | Daniel | 850 | 30 "]
+Nodo1[label = "2 | Lulu | 1500 | 45 "]
+Nodo0 -> Nodo1;
+Nodo2[label = "4 | Oto | 375 | 24 "]
+Nodo1 -> Nodo2;
+}

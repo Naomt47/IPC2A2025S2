@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestión de Bancos</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1>Gestión de Bancos</h1>
+        <form method="post" enctype="multipart/form-data">
+            <label for="xml_file">Cargar archivo XML:</label>
+            <input type="file" id="xml_file" name="xml_file" accept=".xml" required>
+            <label for="parser">Seleccionar parser:</label>
+            <select id="parser" name="parser" required>
+                <option value="elementtree">ElementTree</option>
+                <option value="minidom">Minidom</option>
+            </select>
+            <button type="submit">Cargar</button>
+        </form>
+    </div>
+
+    {% if mensaje %}
+        <p class="mensaje">{{ mensaje }}</p>
+    {% endif %}
+
+    <h2>Gráfica de la Lista Doble</h2>
+    {% if lista.primero %}
+        <img src="{{ url_for('static', filename='listaDoble.png') }}" alt="Gráfica de la lista doble">
+    {% else %}
+        <p>No hay datos para mostrar la gráfica.</p>
+    {% endif %}
+
+    <h2>Datos de los Bancos</h2>
+    {% if lista.primero %}
+        <table>
+            <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Nombre</th>
+                    <th>Dirección</th>
+                    <th>Antigüedad</th>
+                    <th>Sucursales</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for nodo in lista %}
+                    <tr>
+                        <td>{{ nodo.id }}</td>
+                        <td>{{ nodo.nombre }}</td>
+                        <td>{{ nodo.direccion }}</td>
+                        <td>{{ nodo.antiguedad }}</td>
+                        <td>{{ nodo.sucursales }}</td>
+                    </tr>
+                {% endfor %}
+            </tbody>
+        </table>
+    {% else %}
+        <p>No hay datos en la lista.</p>
+    {% endif %}
+
+    <h2>Enunciado del Proyecto</h2>
+    <a href="{{ url_for('visualizarPDF') }}" target="_blank">Ver enunciado (PDF)</a>
+
+</body>
+</html>

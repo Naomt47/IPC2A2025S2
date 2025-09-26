@@ -1,0 +1,1 @@
+digraph G{Nodo0[label="Banrural"];Nodo1[label="Industrial"];Nodo0 -> Nodo1;Nodo1 -> Nodo0;Nodo2[label="G&T"];Nodo1 -> Nodo2;Nodo2 -> Nodo1;Nodo3[label="Promerica"];Nodo2 -> Nodo3;Nodo3 -> Nodo2;}

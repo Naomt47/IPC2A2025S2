@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualizar Enunciado</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <h1>Enunciado del Proyecto</h1>
+    <div class="container">
+        <embed src="{{ url_for('servirPDF') }}" type="application/pdf" width="100%" height="600px">
+        <a href="{{ url_for('index') }}">Volver</a>
+    </div>
+</body>
+</html>

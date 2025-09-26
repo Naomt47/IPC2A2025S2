@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bancos>
+    <banco>
+        <id>1</id>
+        <nombre>Banrural</nombre>
+        <direccion>Zona 9</direccion>
+        <antiguedad>26</antiguedad>
+        <sucursales>100</sucursales>
+    </banco>
+    <banco>
+        <id>2</id>
+        <nombre>Industrial</nombre>
+        <direccion>Zona 21</direccion>
+        <antiguedad>5</antiguedad>
+        <sucursales>20</sucursales>
+    </banco>
+    <banco>
+        <id>3</id>
+        <nombre>G&amp;T</nombre>
+        <direccion>Zona 2</direccion>
+        <antiguedad>10</antiguedad>
+        <sucursales>45</sucursales>
+    </banco>
+    <banco>
+        <id>4</id>
+        <nombre>Promerica</nombre>
+        <direccion>Zona 7</direccion>
+        <antiguedad>8</antiguedad>
+        <sucursales>14</sucursales>
+    </banco>
+</bancos>

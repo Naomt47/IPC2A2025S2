@@ -120,6 +120,13 @@ class ListaCircularDoble:
             
         self .__unirNodos()
 
+
+
+
+
+
+
+
     def eliminarUltimo(self):
         if self.estaVacia():
             print("ERROR: La lista esta vacia")
@@ -135,6 +142,13 @@ class ListaCircularDoble:
 
 
 
+
+
+
+
+
+
+
     def recorrerInicioFin(self):
         temp=self.primero
         while temp: #temp != None
@@ -142,6 +156,11 @@ class ListaCircularDoble:
             temp=temp.siguiente
             if temp==self.primero:
                 break
+
+                
+
+
+
 
 
     def recorrerFinIncio(self):
