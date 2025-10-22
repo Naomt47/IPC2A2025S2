@@ -1,0 +1,423 @@
+<?xml version='1.0' encoding='utf-8'?>
+<ventas>
+	<venta>
+		<fecha>2024-09-29</fecha>
+		<hora>09:15:23</hora>
+		<cliente>
+			<nombre>Juan Perez</nombre>
+			<nit>12345678</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Laptop HP</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>1200.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Mouse Logitech</nombre_producto>
+				<cantidad>2</cantidad>
+				<subtotal>50.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-08-29</fecha>
+		<hora>10:22:14</hora>
+		<cliente>
+			<nombre>Maria Lopez</nombre>
+			<nit>98765432</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Monitor Samsung</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>300.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Teclado Microsoft</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>100.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-01-29</fecha>
+		<hora>11:43:56</hora>
+		<cliente>
+			<nombre>Pedro Gomez</nombre>
+			<nit>45678901</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Audífonos Sony</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>80.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Teclado Microsoft</nombre_producto>
+				<cantidad>2</cantidad>
+				<subtotal>200.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-10-29</fecha>
+		<hora>12:12:45</hora>
+		<cliente>
+			<nombre>Laura Jimenez</nombre>
+			<nit>10293847</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Smartphone Xiaomi</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>350.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Tablet Amazon Fire</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>120.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-02-29</fecha>
+		<hora>13:33:12</hora>
+		<cliente>
+			<nombre>Carlos Mendez</nombre>
+			<nit>87654321</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Audífonos Sony</nombre_producto>
+				<cantidad>3</cantidad>
+				<subtotal>240.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-03-29</fecha>
+		<hora>14:15:03</hora>
+		<cliente>
+			<nombre>Andrea Morales</nombre>
+			<nit>10928374</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Mouse Logitech</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>25.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Impresora Epson</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>180.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-04-29</fecha>
+		<hora>15:50:11</hora>
+		<cliente>
+			<nombre>Ernesto Martinez</nombre>
+			<nit>19283746</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Laptop HP</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>1200.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Monitor Samsung</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>300.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-05-29</fecha>
+		<hora>16:22:09</hora>
+		<cliente>
+			<nombre>Fernanda Ruiz</nombre>
+			<nit>56473829</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Teclado Microsoft</nombre_producto>
+				<cantidad>2</cantidad>
+				<subtotal>200.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Cámara Canon</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>500.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-06-29</fecha>
+		<hora>17:03:33</hora>
+		<cliente>
+			<nombre>Roberto Castillo</nombre>
+			<nit>38475629</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Disco Duro Seagate</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>100.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Audífonos Sony</nombre_producto>
+				<cantidad>2</cantidad>
+				<subtotal>160.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-07-29</fecha>
+		<hora>18:44:23</hora>
+		<cliente>
+			<nombre>Sofia Valdez</nombre>
+			<nit>29384756</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Tablet Amazon Fire</nombre_producto>
+				<cantidad>2</cantidad>
+				<subtotal>240.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-08-29</fecha>
+		<hora>19:22:47</hora>
+		<cliente>
+			<nombre>Jorge Salazar</nombre>
+			<nit>19283745</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Smartphone Xiaomi</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>350.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Impresora Epson</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>180.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-11-29</fecha>
+		<hora>20:33:14</hora>
+		<cliente>
+			<nombre>Manuel Fuentes</nombre>
+			<nit>82736453</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Cámara Canon</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>500.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Disco Duro Seagate</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>100.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-12-29</fecha>
+		<hora>21:00:45</hora>
+		<cliente>
+			<nombre>Victor Ramirez</nombre>
+			<nit>12349876</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Mouse Logitech</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>25.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Audífonos Sony</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>80.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-05-29</fecha>
+		<hora>21:25:10</hora>
+		<cliente>
+			<nombre>Gina Torres</nombre>
+			<nit>11235813</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Tablet Amazon Fire</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>120.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-09-29</fecha>
+		<hora>21:45:30</hora>
+		<cliente>
+			<nombre>Marco Fernandez</nombre>
+			<nit>45678902</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Smartphone Xiaomi</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>350.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Laptop HP</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>1200.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-03-29</fecha>
+		<hora>22:00:00</hora>
+		<cliente>
+			<nombre>Alicia Morales</nombre>
+			<nit>98765431</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Teclado Microsoft</nombre_producto>
+				<cantidad>2</cantidad>
+				<subtotal>200.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Disco Duro Seagate</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>100.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-01-29</fecha>
+		<hora>22:20:20</hora>
+		<cliente>
+			<nombre>Valeria Gutierrez</nombre>
+			<nit>21345678</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Audífonos Sony</nombre_producto>
+				<cantidad>2</cantidad>
+				<subtotal>160.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-06-29</fecha>
+		<hora>22:50:50</hora>
+		<cliente>
+			<nombre>Roberto Silva</nombre>
+			<nit>34567890</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Cámara Canon</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>500.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Monitor Samsung</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>300.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-07-29</fecha>
+		<hora>23:11:11</hora>
+		<cliente>
+			<nombre>Silvia Paredes</nombre>
+			<nit>87654329</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Smartphone Xiaomi</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>350.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Tablet Amazon Fire</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>120.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-11-29</fecha>
+		<hora>23:33:33</hora>
+		<cliente>
+			<nombre>Lucas Cruz</nombre>
+			<nit>90817263</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Teclado Microsoft</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>100.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Disco Duro Seagate</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>100.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-12-29</fecha>
+		<hora>23:59:59</hora>
+		<cliente>
+			<nombre>Paola Arias</nombre>
+			<nit>20234567</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Impresora Epson</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>180.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Audífonos Sony</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>80.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+	<venta>
+		<fecha>2024-10-30</fecha>
+		<hora>10:00:45</hora>
+		<cliente>
+			<nombre>Ana Gómez</nombre>
+			<nit>87654321</nit>
+		</cliente>
+		<compras>
+			<producto>
+				<nombre_producto>Smartphone Xiaomi</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>500.0</subtotal>
+			</producto>
+			<producto>
+				<nombre_producto>Teclado Microsoft</nombre_producto>
+				<cantidad>1</cantidad>
+				<subtotal>80.0</subtotal>
+			</producto>
+		</compras>
+	</venta>
+</ventas>
